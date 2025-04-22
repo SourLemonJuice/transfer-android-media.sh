@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-script_name="backup-android.sh"
+script_name="transfer-android-media.sh"
 
 function PrintHelp {
     echo "Usage: ${script_name} [--help] <source_prefix> <destination_prefix>"
