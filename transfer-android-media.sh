@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Published under MIT license.
+# Copyright 2025 酸柠檬猹/SourLemonJuice
 
 script_name="transfer-android-media.sh"
 
