@@ -5,7 +5,7 @@
 script_name="transfer-android-media.sh"
 
 function PrintHelp {
-    echo "Usage: ${script_name} [--help] <source_prefix> <destination_prefix>"
+    echo "Usage: ${script_name} [--help] <source_prefix> <destination_prefix> [<addition_rsync_flags>]"
 }
 
 # $1: log message

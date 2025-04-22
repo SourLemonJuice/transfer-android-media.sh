@@ -6,10 +6,10 @@ User need to prepare Android directory by `mtpfs` or other method, even use KDE 
 ## Usage
 
 ```text
-Usage: transfer-android-media.sh [--help] <source_prefix> <destination_prefix>
+Usage: transfer-android-media.sh [--help] <source_prefix> <destination_prefix> [<addition_rsync_flags>]
 ```
 
-For example, this command will copy the `DCIM/`, `Pictures/` and `Movies/` subfolders from `/android/` to the `/backup/`:
+For example, this command will increment backup the `DCIM/`, `Pictures/` and `Movies/` subfolders from `/android/` to the `/backup/`:
 
 ```shell
 transfer-android-media.sh /android/ /backup/
