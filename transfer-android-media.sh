@@ -51,6 +51,7 @@ rsync_flags=(
     "--times"
     "--exclude=.trashed-*"
     "--exclude=.thumbnails/"
+    "--exclude=thumbnails/"
 )
 
 subfolders=(
